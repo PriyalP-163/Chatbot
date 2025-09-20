@@ -58,6 +58,9 @@ def chatbot():
         elif "help" in user_input:
             print("🤖 Chatbot: You can ask me about time, date, tell a joke, or just chat with me!")
 
+        elif user_input.strip() == "":
+            print("🤖 Chatbot: Please say something so I can assist you!")    
+
         else:
             print("🤖 Chatbot: Sorry, I didn’t get that. Try asking something else or type 'help'.")
 
